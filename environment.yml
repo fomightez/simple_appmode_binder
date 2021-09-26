@@ -1,0 +1,10 @@
+name: appmode-binderized
+channels:
+  - conda-forge
+dependencies:
+  - appmode
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - ipywidgets
